@@ -54,7 +54,7 @@ const Header = () => {
         />
       </div>
       <h3 className="flex items-center gap-2 text-xl md:text-3xl mb-2 text-gray-700">
-        Hi! I am Vijay Pratap Singh Jadon{" "}
+        Hi, I am Vijay Pratap Singh Jadon{" "}
         <Image src={assets.hand_icon} alt="hi-icon" className="w-6" />
       </h3>
       <h1 className="text-3xl sm:text-5xl lg:text-5xl text-gray-800">
