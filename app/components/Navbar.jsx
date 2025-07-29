@@ -94,7 +94,7 @@ const Navbar = () => {
       {/* Below is the mobile menu view */}
       <ul
         ref={sideMenuRef}
-        className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-50 top-0 bottom-0 w-50 z-50 h-screen bg-gradient-to-b from-purple-100 to-pink-50 transition-all duration-500"
+        className="flex md:hidden flex-col gap-8 py-20 px-10 fixed -right-50 top-0 bottom-0 w-50 z-50 h-screen bg-gradient-to-b from-pink-100 to-cyan-50 transition-all duration-500"
       >
         <div className="absolute top-6 right-6">
           <Image
