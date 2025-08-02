@@ -9,8 +9,8 @@ const About = () => {
       className="w-full flex flex-col items-center px-[12%] py-10 scroll-mt-12"
     >
       <h4 className="text-center mb-2 text-lg">Introduction</h4>
-      <p className="text-center text-5xl">About Me</p>
-      <div className="flex max-w-4xl flex-col lg:flex-row items-center gap-18 my-18">
+      <p className="text-center text-4xl">About Me</p>
+      <div className="flex max-w-4xl flex-col lg:flex-row items-center gap-18 mt-8 mb-18">
         <div className="w-64 sm:w-70 rounded-3xl max-w-none">
           <Image
             src={assets.user_image}
@@ -20,12 +20,12 @@ const About = () => {
         </div>
         <div className="flex-1">
           <p className="font-light text-gray-600">
-            I'm a passionate <span className="font-semibold text-black">Full Stack Developer</span> with a knack for crafting
+            I'm a passionate <span className="font-semibold text-black hover:text-purple-400 transition-all duration-200">Full Stack Developer</span> with a knack for crafting
             scalable and user-friendly web applications. I graduated in 2024
             with a Bachelor of Science from Jiwaji University, Gwalior, and
             honed my development skills through a comprehensive one-year
-            full-stack program focused on the <span className="font-semibold text-black">MERN stack</span> at Coding Ninjas. My
-            approach blends clean, <span className="font-semibold text-black">responsive UI design</span> with robust <span className="font-semibold text-black">backend
+            full-stack program focused on the <span className="font-semibold text-black hover:text-purple-400 transition-all duration-200">MERN stack</span> at Coding Ninjas. My
+            approach blends clean, <span className="font-semibold text-black hover:text-purple-400 transition-all duration-200">responsive UI design</span> with robust <span className="font-semibold text-black hover:text-purple-400 transition-all duration-200">backend
             logic</span>, all driven by modern development practices and a curiosity
             for solving meaningful technical challenges.
           </p>
